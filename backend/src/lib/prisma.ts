@@ -1,0 +1,3 @@
+import { PrismaClient } from '@prisma/client';
+
+export const prisma = new PrismaClient(); // há uma flag log, para mostrar os logs, podendo colocar entre parenteses, array, query...
